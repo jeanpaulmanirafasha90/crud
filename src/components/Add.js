@@ -30,7 +30,7 @@ function Add(){
         <div>
             <Form className="d-grid gap-2" style={{margin:"15rem"}}>
                 <Form.Group className="mb-3" controlId="formName">
-                    <Form.Control type="text" placeholder="Enter Name" required onChange={(e) => setName(e.target.value)}>
+                    <Form.Control type="text" placeholder="Enter Name"  onChange={(e) => setName(e.target.value)} required>
                     </Form.Control>
                 </Form.Group>
 
